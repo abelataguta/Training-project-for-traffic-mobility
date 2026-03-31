@@ -91,8 +91,10 @@ A comprehensive Smart Traffic Intelligence and Prediction System built with Pyth
     streamlit run app.py
 
 **🔮 Model Details (Prediction Dashboard)**
-    Algorithm: Random Forest Classifier
-    Input Features:
+
+    ###### Algorithm: Random Forest Classifier
+    **Input Features:**
+    
     Latitude, Longitude, Vehicle Count, Traffic Speed, Road Occupancy, Traffic Light State, Weather Condition, Accident Report, Sentiment Score, Ride Sharing Demand, Parking Availability, Emission Levels, Energy Consumption, Hour, Day
     Output Classes:
     0 → Low
@@ -129,7 +131,7 @@ A comprehensive Smart Traffic Intelligence and Prediction System built with Pyth
     
 **🧹 .gitignore Suggestion**
 
-    streamlitenv/
+     env/
     **__pycache__/**
     *.py
     *.pkl
