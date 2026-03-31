@@ -93,6 +93,7 @@ A comprehensive Smart Traffic Intelligence and Prediction System built with Pyth
 **🔮 Model Details (Prediction Dashboard)**
 
     ###### Algorithm: Random Forest Classifier
+    
     **Input Features:**
     
     Latitude, Longitude, Vehicle Count, Traffic Speed, Road Occupancy, Traffic Light State, Weather Condition, Accident Report, Sentiment Score, Ride Sharing Demand, Parking Availability, Emission Levels, Energy Consumption, Hour, Day
@@ -138,6 +139,6 @@ A comprehensive Smart Traffic Intelligence and Prediction System built with Pyth
     .DS_Store
     .env
 
-##👨‍💻 Author
+## 👨‍💻 Author
 
 **Ababa Lata – Data Scientist | ML Engineer | Smart Mobility Researcher**
