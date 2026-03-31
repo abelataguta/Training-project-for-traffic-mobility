@@ -56,7 +56,13 @@ A comprehensive Smart Traffic Intelligence and Prediction System built with Pyth
     │   ├── app.py                 # Traffic Condition Prediction Dashboard
     │   ├── rf_model.pkl
     │   └── requirements.txt
-    │
+    │__ ppt/
+    |   |__ DS_T00.pdf
+    |   |__ DS_T01.pdf
+    |   |__ DS_T02.pdf             # Document for reading 
+    |   |__ DS_T03.pdf
+    |   |__ DS_T04.pdf
+    |   |__ DS_T05.pdf
     ├── README.md                  # This file
 
 #### ⚙️ Installation & Setup
