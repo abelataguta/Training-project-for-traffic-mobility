@@ -1,6 +1,6 @@
 # Training-project-for-traffic-mobility
 
-###🚦 Smart Traffic AI Suite
+### 🚦 Smart Traffic AI Suite
 
 A comprehensive Smart Traffic Intelligence and Prediction System built with Python, Streamlit, and Machine Learning, combining real-time traffic analytics and AI-powered traffic prediction for smart city applications.
 
@@ -59,69 +59,83 @@ A comprehensive Smart Traffic Intelligence and Prediction System built with Pyth
     │
     ├── README.md                  # This file
 
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/smart-traffic-ai-suite.git
-cd smart-traffic-ai-suite
+#### ⚙️ Installation & Setup
 
-2️⃣ Create Virtual Environment
-python -m venv venv
-# Activate Windows
-venv\Scripts\activate
-# Activate Mac/Linux
-source venv/bin/activate
+**1️⃣ Clone the Repository**
 
-3️⃣ Install Dependencies
-pip install -r dashboard_intelligence/requirements.txt
-pip install -r dashboard_prediction/requirements.txt
+    git clone https://github.com/abelataguta/smart-traffic-ai-suite.git
+        cd smart-traffic-ai-suite
 
-4️⃣ Run Dashboards
-Traffic Intelligence Dashboard:
-cd dashboard_intelligence
-streamlit run app.py
+**2️⃣ Create Virtual Environment**
 
-Traffic Prediction Dashboard:
-cd dashboard_prediction
-streamlit run app.py
+    python -m venv venv
+    
+#### Activate Windows
+    venv\Scripts\activate
+#### Activate Mac/Linux
+    source venv/bin/activate
 
-🔮 Model Details (Prediction Dashboard)
-Algorithm: Random Forest Classifier
-Input Features:
-Latitude, Longitude, Vehicle Count, Traffic Speed, Road Occupancy, Traffic Light State, Weather Condition, Accident Report, Sentiment Score, Ride Sharing Demand, Parking Availability, Emission Levels, Energy Consumption, Hour, Day
-Output Classes:
-0 → Low
-1 → Medium
-2 → High
-📊 Visualizations
-Interactive maps and charts (Intelligence Dashboard)
-Feature importance & probability distribution (Prediction Dashboard)
-Confusion matrix demo for evaluation
-🛠 Workflow for Contributions
-Fork the repository
-Create a branch:
-git checkout -b feature-new-visualization
+**3️⃣ Install Dependencies**
 
-Commit your changes:
-git add .
-git commit -m "Add new traffic visualization"
+    pip install -r dashboard_intelligence/requirements.txt
+    pip install -r dashboard_prediction/requirements.txt
 
-Push branch:
-git push origin feature-new-visualization
+**4️⃣ Run Dashboards**
 
-Create Pull Request on GitHub
-🚀 Future Enhancements
-Add real-time traffic API integration
-Deploy dashboards on Streamlit Cloud or Heroku
-Integrate deep learning models for traffic forecasting (LSTM)
-Add explainable AI visualizations (SHAP, LIME)
-🧹 .gitignore Suggestion
-venv/
-__pycache__/
-*.pyc
-*.pkl
-.DS_Store
-.env
+    Traffic Intelligence Dashboard:
+    cd dashboard_intelligence
+    streamlit run app.py
 
-👨‍💻 Author
+    Traffic Prediction Dashboard:
+    cd dashboard_prediction
+    streamlit run app.py
 
-Ababa Lata – Data Scientist | ML Engineer | Smart Mobility Researcher
+**🔮 Model Details (Prediction Dashboard)**
+    Algorithm: Random Forest Classifier
+    Input Features:
+    Latitude, Longitude, Vehicle Count, Traffic Speed, Road Occupancy, Traffic Light State, Weather Condition, Accident Report, Sentiment Score, Ride Sharing Demand, Parking Availability, Emission Levels, Energy Consumption, Hour, Day
+    Output Classes:
+    0 → Low
+    1 → Medium
+    2 → High
+
+**📊 Visualizations**
+
+    Interactive maps and charts (Intelligence Dashboard)
+    Feature importance & probability distribution (Prediction Dashboard)
+    Confusion matrix demo for evaluation
+    
+**🛠 Workflow for Contributions**
+
+    Fork the repository
+    Create a branch:
+    git checkout -b feature-new-visualization
+    
+    Commit your changes:
+    git add .
+    git commit -m "Add new traffic visualization"
+    
+    Push branch:
+    git push origin feature-new-visualization
+    
+    Create Pull Request on GitHub
+    
+**🚀 Future Enhancements**
+
+    Add real-time traffic API integration
+    Deploy dashboards on Streamlit Cloud or Heroku
+    Integrate deep learning models for traffic forecasting (LSTM)
+    Add explainable AI visualizations (SHAP, LIME)
+    
+**🧹 .gitignore Suggestion**
+
+    streamlitenv/
+    **__pycache__/**
+    *.py
+    *.pkl
+    .DS_Store
+    .env
+
+##👨‍💻 Author
+
+**Ababa Lata – Data Scientist | ML Engineer | Smart Mobility Researcher**
